@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   z-index: 11111;
-  background: white;
+  background: var(--light-color);
   height: 80px;
   transition: 1.5s;
 }
@@ -73,10 +73,23 @@
   margin-right: 20px;
 }
 
-.MenuButton {
+.MainContainer .MenuButton {
   cursor: pointer;
   font-size: 22px;
   color: var(--primary-color);
+}
+
+.MainContainerScroll .MenuButton {
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+
+.CloseButton {
+  width: 80%;
+  color: white;
+  font-size: 30px;
+  text-align: right;
 }
 
 .LanguageContainer span {

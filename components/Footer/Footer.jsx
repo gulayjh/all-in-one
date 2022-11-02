@@ -28,8 +28,7 @@ const Footer = () => {
                             <a>{i18n.t('Contact')}</a>
                         </Link>
                     </div>
-                    <div>
-                       
+                    <div className={style.IconMenu}>
                         <Link href='/'>
                             <a>
                                 <svg width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +59,9 @@ const Footer = () => {
                         </Link>
                     </div>
                 </div>
+            </div>
+            <div className={style.CopyRight}>
+                <span>@2022. All In One Solutions </span>
             </div>
 
         </div >

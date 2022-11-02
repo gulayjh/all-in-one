@@ -1,3 +1,22 @@
 .MainContainer {
   background: #efefef;
 }
+
+.Title {
+  padding-left: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+
+@media all and (max-width: 940px) {
+  .Title {
+    width: 90%;
+    padding: 0px;
+    margin: 0px auto;
+  }
+}

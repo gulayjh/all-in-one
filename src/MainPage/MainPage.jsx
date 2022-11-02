@@ -8,8 +8,13 @@ import AboutUs from './AboutUs/AboutUs';
 const MainPage = () => {
     return (
         <div className={style.MainContainer} >
-            <MainSlide />
-            <AboutUs/>
+            <div>
+                <MainSlide />
+            </div>
+            <div>
+                <h1 className={style.Title}>{i18n.t('About')}</h1>
+                <AboutUs />
+            </div>
         </div>
 
     );

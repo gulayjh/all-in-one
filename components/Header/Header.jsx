@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { withTranslation, i18n } from '../../i18n';
 import style from './header.module.css'
 import Link from 'next/link';
-import { AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { ClickAwayListener } from "@material-ui/core";
 import { RiArrowDownSLine, RiArrowUpSLine } from 'react-icons/ri'
 
@@ -51,9 +51,16 @@ const Header = () => {
                     <div className={style.MenuButton} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <AiOutlineMenu />
                     </div>
+                    : null
+                }
 
-                    : null}
                 <div className={showMobileMenu ? style.MenuContainerOpen : style.MenuContainer}>
+                    {width < 940 ?
+                        <div className={style.CloseButton} onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                            <AiOutlineClose />
+                        </div>
+
+                        : null}
                     <div className={style.MenuContent}>
                         <Link href='/'>
                             <a>{i18n.t('About')}</a>

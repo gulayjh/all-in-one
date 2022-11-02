@@ -1,6 +1,6 @@
 .MainContainer {
   width: 100%;
-  margin: 0px auto;
+  margin: 50px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -139,7 +139,6 @@
   flex-basis: 50%;
   width: 100%;
   height: 100%;
-
 }
 
 @media all and (max-width: 1200px) {
@@ -165,5 +164,39 @@
 
   .Content img {
     width: 100%;
+  }
+
+  .MainContent:nth-child(1) .Content:nth-child(4) {
+    height: 150px;
+  }
+
+  .MainContent:nth-child(2) .Content:nth-child(2) {
+    height: 250px;
+ 
+  }
+  
+  .MainContent h2 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .MainContent h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .MainContent h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .MainContent span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .MainContent p {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
