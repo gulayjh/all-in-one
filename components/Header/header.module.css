@@ -1,0 +1,204 @@
+.MainContainer {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  background: white;
+  height: 80px;
+  transition: 1.5s;
+}
+
+.MainContainerScroll {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  background: #4e6262;
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 1.5s;
+}
+
+.HeaderContent {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.LogoContainer {
+  flex-basis: 20%;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LogoContainer img {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.MenuContainer {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.MenuContainer a {
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--dark-color);
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.MenuContainer a:hover {
+  color: var(--primary-color);
+}
+
+.MainContainerScroll a {
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.MenuButton {
+  cursor: pointer;
+  font-size: 22px;
+  color: var(--primary-color);
+}
+
+.LanguageContainer span {
+  font-size: 14px;
+}
+
+.LanguageContainer select {
+  border: none;
+  width: 50px;
+  text-transform: uppercase;
+}
+
+.DropDownContainer {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  position: absolute;
+  box-shadow: 5px 1px 20px -4px var(--border-color);
+  z-index: 1000;
+  animation: fadeIn 1.1s;
+}
+.DropDownContainer span {
+  cursor: pointer;
+}
+
+.selectedLanguage {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.MainContainer .selectedLanguage,
+.MainContainer .DropDownContainer {
+  color: var(--primary-color);
+}
+
+.MainContainerScroll .selectedLanguage {
+  color: white;
+}
+.MainContainerScroll .DropDownContainer {
+  color: var(--dark-color);
+}
+
+.selectedLanguage span:nth-child(1) {
+  padding-right: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes Openin {
+  0% {
+    transform: translateY(-80px);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media all and (max-width: 940px) {
+  .LogoContainer img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .LogoContainer {
+    flex-basis: 40%;
+    width: 100%;
+  }
+
+  .MenuContainer {
+    display: none;
+  }
+
+  .MenuContainerOpen {
+    top: 0px;
+    left: 100px;
+    padding: 20px 50px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--primary-color);
+    animation: Openin 1.5s;
+  }
+  .MenuContent {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .MenuContent a {
+    margin: 10px 0px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .Languages {
+    margin: 0px auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .button {
+    width: 100%;
+  }
+  .selectedLanguage {
+    color: white !important;
+  }
+}
