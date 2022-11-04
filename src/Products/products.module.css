@@ -1,0 +1,53 @@
+.Content {
+  padding: 50px;
+  width: 80%;
+  position: relative;
+  border: 1px solid #3e3e3e;
+  border-radius: 0px 242.5px 242.5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LeftContent img {
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+  border-right: 1px solid #3e3e3e;
+}
+
+.RightContent{
+    padding: 10px ;
+}
+
+.RightContent h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+
+.RightContent p {
+  width: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #4e6262;
+}
+
+.Content:nth-child(1) > img {
+  position: absolute;
+}
+
+.Content:nth-child(1) > .leftImage {
+  left: 0;
+  top: -40px;
+}
+
+.Content:nth-child(1) > .rightImage {
+  right: -7%;
+}
