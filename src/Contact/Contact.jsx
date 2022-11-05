@@ -40,7 +40,7 @@ const Contact = () => {
 
                             </span>
                             <Link href="">
-                                <a href="tel:+ +994 xx xxx xx xx">+994 xx xxx xx xx</a>
+                                <a href="tel:+ +994 77 348 48 43">+994 77 348 48 43</a>
                             </Link>
                         </div>
                         <div className={style.row}>

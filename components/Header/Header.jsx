@@ -81,7 +81,7 @@ const Header = () => {
                         </Link>
                         {width > 940 ?
                             <Link href='/'>
-                                <a href="tel:+994 xx xxx xx xx">{i18n.t('+994 xx xxx xx xx')}</a>
+                                <a href="tel:+994 77 348 48 43">{i18n.t('+994 77 348 48 43')}</a>
                             </Link>
                             : null
                         }

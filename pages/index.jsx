@@ -24,7 +24,7 @@ export default function index() {
 					<MainPage />
 				</>
 			</Layout>
-			<Products />
+			{/* <Products /> */}
 			<Portfolio />
 			<Contact />
 		</>
