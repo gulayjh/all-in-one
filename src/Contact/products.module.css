@@ -1,0 +1,123 @@
+.Main {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.Title {
+  width: 1200px;
+  margin: 20px auto;
+  padding-left: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+.MainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+  border: 1px solid #3e3e3e;
+}
+
+.Content:nth-child(1),
+.Content:nth-child(3) {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 48%;
+  width: 100%;
+}
+
+.Content:nth-child(2) {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 4%;
+  width: 100%;
+  background-image: url("/images/portfolio.png");
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.row > span {
+  flex-basis: 20%;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.row > a {
+  flex-basis: 80%;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+.InputContent {
+  width: 70%;
+}
+
+.InputContent > div {
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.InputContent input {
+  background: #e0e0e0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
+  outline: none;
+  height: 50px;
+  padding: 10px 15px;
+}
+
+.InputContent label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+
+.InputContent > div:nth-child(3) button {
+  padding: 10px 50px;
+  height: 60px;
+  background: #4e6262;
+  width: 70%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+@media all and (max-width: 940px) {
+  .Main {
+    width: 90%;
+  }
+  .MainContainer {
+    flex-direction: column;
+    height: 70vh;
+  }
+}

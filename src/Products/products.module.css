@@ -1,23 +1,79 @@
+.Main {
+  max-width: 2000px;
+  margin: 100px auto;
+}
+
+.Title {
+  width: 1200px;
+  margin: 20px auto;
+  padding-left: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+
 .Content {
   padding: 50px;
   width: 80%;
+  height: 400px;
   position: relative;
   border: 1px solid #3e3e3e;
-  border-radius: 0px 242.5px 242.5px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.LeftContent img {
-  width: 200px;
-  height: 250px;
-  object-fit: contain;
-  border-right: 1px solid #3e3e3e;
+.Content > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 400px;
 }
 
-.RightContent{
-    padding: 10px ;
+.Content:nth-child(1) {
+  cursor: pointer;
+}
+
+.Content:nth-child(odd) {
+  border-radius: 0px 242.5px 242.5px 0px;
+}
+
+.Content:nth-child(even) {
+  margin-left: 20%;
+  border-radius: 242.5px 0px 0px 242.5px;
+}
+
+.LeftContent img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.RightContent:after {
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  background: #3e3e3e;
+  width: 1px;
+  top: 20px;
+  left: 0;
+  height: 140px;
+}
+
+.RightContent,
+.LeftContent {
+  flex-basis: 50%;
+  width: 100%;
+}
+
+.RightContent {
+  padding-left: 100px;
+  position: relative;
 }
 
 .RightContent h3 {
@@ -30,16 +86,15 @@
 }
 
 .RightContent p {
-  width: 60%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 22px;
   color: #4e6262;
 }
 
-.Content:nth-child(1) > img {
+.Content > img {
   position: absolute;
 }
 
@@ -50,4 +105,81 @@
 
 .Content:nth-child(1) > .rightImage {
   right: -7%;
+}
+
+.Content:nth-child(2) > .leftImage {
+  left: -20%;
+}
+
+.Content:nth-child(3) > .leftImage {
+  left: 0;
+  bottom: -100px;
+  width: 200px;
+}
+
+.Content:nth-child(3) > .rightImage {
+  right: 0px;
+  top: -100px;
+}
+
+@media all and (max-width: 940px) {
+  .Content {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px !important;
+  }
+
+  .Content > img {
+    position: absolute;
+    width: 100px;
+  }
+
+  .LeftContent img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+
+  .RightContent {
+    padding-left: 30px;
+    position: relative;
+  }
+
+  .RightContent h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .RightContent p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .RightContent:after {
+    content: "";
+    position: absolute;
+    border-radius: 4px;
+    background: #3e3e3e;
+    width: 1px;
+    top: 50px;
+    left: 0;
+    height: 100px;
+  }
+
+  .Content:nth-child(1) > .rightImage {
+    right: -2%;
+    bottom: 0px;
+  }
+
+  .Content:nth-child(3) > .rightImage {
+    right: 0px;
+    top: -50px;
+  }
 }

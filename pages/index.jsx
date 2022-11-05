@@ -6,6 +6,8 @@ import { i18n } from '../i18n';
 import MainPage from '../src/MainPage/MainPage'
 import Layout from '../components/Layout/Layout'
 import Products from '../src/Products/Products';
+import Portfolio from '../src/Portfolio/Portfolio';
+import Contact from '../src/Contact/Contact';
 
 export default function index() {
 	const [mainSlider, setMainSlider] = useState()
@@ -23,6 +25,8 @@ export default function index() {
 				</>
 			</Layout>
 			<Products />
+			<Portfolio />
+			<Contact />
 		</>
 	)
 }
