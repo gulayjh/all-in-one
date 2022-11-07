@@ -141,6 +141,10 @@
   height: 100%;
 }
 
+.MainContent:nth-child(2) .Content:nth-child(2) > div > div:nth-child(1) {
+  margin-bottom: 10px;
+}
+
 @media all and (max-width: 1200px) {
   .MainContainer {
     width: 90%;
@@ -172,9 +176,8 @@
 
   .MainContent:nth-child(2) .Content:nth-child(2) {
     height: 250px;
- 
   }
-  
+
   .MainContent h2 {
     font-size: 48px;
     line-height: 50px;

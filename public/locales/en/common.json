@@ -6,8 +6,35 @@
     "MainPageTitle":"ALL IN ONE",
     "MainPageText":"Все решения для вашего бизнеса в одном месте.",
     "MainPageButton":"Связаться с нами",
-    "AboutUsText":"Передовая IT компания,работающая по самым современным технологиям"
+    "AboutUsText":"Передовая IT компания,работающая по самым современным технологиям",
 
+    "Users":"Users",
+    "Clients":"Clients",
+    "OurSpecialists":"Our Specialists",
+    "OurSpecialists-text":"They will help you develop your business, from branding to the final implementation on the market.",
+    "PartnerCompanier": "Partner companies",
+    "LeftContentTitle-1":"We bring projects to the ideal - this is our policy",
+    "LeftContentTitle-2": "In touch with clients",
+    "LeftContentText-2":"Our clients always know at what stage the work on the project is",
+    
+    
+    "Products":"Products",
+    "snec-title":"SNEC.az",
+    "snec-text": "Build your own online store on the Telegram site.",
+    "analytics-title":"AIO analytics",
+    "analytics-text": "We'll bring you a whole new level of analytics, with built-in artificial intelligence.",
+    "bd-title":"AIO B&D",
+    "bd-text":"Entrust the branding and visual of your brand to us. We will do something that absolutely everyone will recognize!",
+    
+    "website-branding":"Website & Branding",
+    
+    "name":"Name",
+    "email":"Email",
+    "submit":"Submit request"
+        
+      
+        
 
+    
       
 }

@@ -118,6 +118,6 @@
   }
   .MainContainer {
     flex-direction: column;
-    height: 70vh;
+    height: 100%;
   }
 }

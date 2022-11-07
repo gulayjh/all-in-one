@@ -42,13 +42,16 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className={style.Content}>
+                {/*
+               <div className={style.Content}>
                     <div className={style.ContentText}>
                         <div className={style.Text}>
-                            {/* <img src="/images/portfolio-logo1.png" alt="logo" /> */}
+                             <img src="/images/portfolio-logo1.png" alt="logo" /> 
+                            
+                            
                         </div>
                         <div className={style.Text}>
-                            {/* <img src="/images/portfolio-icon1.png" alt="logo" /> */}
+                          <img src="/images/portfolio-icon1.png" alt="logo" />
                         </div>
                         <div className={style.Text}>
                             <span>{i18n.t('web-site-branding')}</span>
@@ -60,6 +63,7 @@ const Portfolio = () => {
                 </div>
 
 
+            */}
             </div>
         </div>
     );

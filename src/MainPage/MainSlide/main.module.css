@@ -56,6 +56,7 @@
   .MainContainer {
     max-height: unset;
     flex-direction: column;
+    height: 100%;
   }
 
   .Content {

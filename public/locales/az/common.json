@@ -1,14 +1,40 @@
 {
-    "About": "О НАС",
-    "Portfolio": "Продукты",
-    "Product": "портфолио",
-    "Contact": "связь",
-    "MainPageTitle":"ALL IN ONE",
-    "MainPageText":"Все решения для вашего бизнеса в одном месте.",
-    "MainPageButton":"Связаться с нами",
-    "AboutUsText":"Передовая IT компания,работающая по самым современным технологиям"
+    "Haqqında": "Haqqında",
+    "Portfolio": "Portfolio",
+    "Məhsul": "Məhsul",
+    "Əlaqə": "Əlaqə",
+    "MainPageTitle":"All In One",
+    "MainPageText": "Biznesiniz üçün bütün həllər bir yerdə.",
+    "MainPageButton": "Bizimlə əlaqə saxlayın",
+    "AboutUsText": "Ən müasir texnologiyalar üzərində işləyən qabaqcıl İT şirkəti",
 
+    "İstifadəçilər":"İstifadəçilər",
+    "Müştərilər":"Müştərilər",
+    "Mütəxəssislərimiz":"Mütəxəssislərimiz",
+    "OurSpecialists-text": "Onlar brendinqdən tutmuş bazarda son tətbiqə qədər biznesinizi inkişaf etdirməyə kömək edəcəklər.",
+    "PartnerCompanier": "Tərəfdaş şirkətlər",
+    "LeftContentTitle-1":"Biz layihələri ideala çatdırırıq - bu bizim siyasətimizdir",
+    "LeftContentTitle-2": "Müştərilərlə əlaqə",
+    "LeftContentText-2":"Müştərilərimiz həmişə layihə üzərində işin hansı mərhələdə olduğunu bilirlər",
+    
+    
+    "Məhsullar":"Məhsullar",
+    "snec-title":"SNEC.az",
+    "snec-text": "Telegram saytında öz onlayn mağazanızı qurun.",
+    "analytics-title":"AIO analitikası",
+    "analytics-text": "Daxili süni intellektlə sizə analitikanın tamamilə yeni səviyyəsini təqdim edəcəyik.",
+    "bd-title":"AIO B&D",
+    "bd-text":"Brendinizin markasını və vizualını bizə həvalə edin. Biz hər kəsin tanıyacağı bir şey edəcəyik!",
+    
+    "website-branding":"Vebsayt və Brendinq",
+    
+    "name":"Ad",
+    "email":"E-poçt",
+    "submit":"Sorğu göndər"
+        
+      
+        
 
-
-  
+    
+      
 }
