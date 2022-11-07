@@ -38,9 +38,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 4%;
+  flex-basis: 2%;
   width: 100%;
-  background-image: url("/images/portfolio.png");
+  background-image: url("/images/contactside.png");
 }
 
 .row {
@@ -120,4 +120,6 @@
     flex-direction: column;
     height: 100%;
   }
+
+  
 }
