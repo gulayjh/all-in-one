@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const AboutUs = () => {
     return (
-        <div className={style.MainContainer} >
+        <div className={style.MainContainer} id="About">
             <div className={style.MainContent} >
                 <div className={style.Content} >
                     <h3>{i18n.t('AboutUsText')}</h3>

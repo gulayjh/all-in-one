@@ -62,21 +62,21 @@ const Header = () => {
 
                         : null}
                     <div className={style.MenuContent}>
-                        <Link href='/'>
+                        <Link href='#About'>
                             <a>{i18n.t('About')}</a>
                         </Link>
                         {width > 940 ?
 
-                            <Link href='/'>
+                            <Link href='#Product'>
                                 <a>{i18n.t('Product')}</a>
                             </Link>
                             : null
                         }
 
-                        < Link href='/'>
+                        < Link href='#Portfolio'  scroll={false}>
                             <a>{i18n.t('Portfolio')}</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#Contact'>
                             <a>{i18n.t('Contact')}</a>
                         </Link>
                         {width > 940 ?

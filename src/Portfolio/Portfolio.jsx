@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Portfolio = () => {
     return (
-        <div className={style.Main}>
+        <div className={style.Main} id="Portfolio">
             <h1 className={style.Title}>{i18n.t('Portfolio')}</h1>
             <div className={style.MainContainer}>
                 <div className={style.Content}>

@@ -15,16 +15,16 @@ const Footer = () => {
                 </div>
                 <div className={style.FooterContent}>
                     <div>
-                        <Link href='/'>
+                        <Link href='#About'>
                             <a>{i18n.t('About')}</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#Product'>
                             <a>{i18n.t('Product')}</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#Portfolio'>
                             <a>{i18n.t('Portfolio')}</a>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#Contact'>
                             <a>{i18n.t('Contact')}</a>
                         </Link>
                     </div>

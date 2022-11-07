@@ -16,7 +16,7 @@ const Contact = () => {
     }
 
     return (
-        <div className={style.Main}>
+        <div className={style.Main} id="Contact">
             <h1 className={style.Title}>{i18n.t('Contact')}</h1>
             <div className={style.MainContainer}>
                 <div className={style.Content}>

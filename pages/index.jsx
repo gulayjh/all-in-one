@@ -24,6 +24,7 @@ export default function index() {
 					<MainPage />
 				</>
 			</Layout>
+			
 			<Products />
 			<Portfolio />
 			<Contact />

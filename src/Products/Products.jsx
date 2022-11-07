@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Products = () => {
     return (
-        <div className={style.Main}>
+        <div className={style.Main} id="Product">
             <h1 className={style.Title}>{i18n.t('Products')}</h1>
             <div className={style.MainContainer}>
                 <div className={style.Content}>

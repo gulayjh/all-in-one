@@ -110,9 +110,11 @@
   box-shadow: 5px 1px 20px -4px var(--border-color);
   z-index: 1000;
   animation: fadeIn 1.1s;
+  margin-top: 25px;
 }
 .DropDownContainer span {
   cursor: pointer;
+  color: var(--dark-color);
 }
 
 .selectedLanguage {
@@ -213,5 +215,9 @@
   }
   .selectedLanguage {
     color: white !important;
+  }
+
+  .DropDownContainer span{
+    color: white;
   }
 }
