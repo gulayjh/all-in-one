@@ -86,7 +86,7 @@ const Contact = () => {
                                 </div>
 
                                 <div>
-                                    <button>{i18n.t('submit')}</button>
+                                    <button className={style.slide}>{i18n.t('submit')}</button>
                                 </div>
                             </div>
 

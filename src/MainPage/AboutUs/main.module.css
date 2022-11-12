@@ -37,6 +37,10 @@
   color: #3e3e3e;
 }
 
+.Content:nth-child(1) h3:nth-child(1) {
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
 .MainContent h4 {
   margin: 0px;
   margin-left: 20px;
@@ -113,6 +117,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   border-bottom: 1px solid #3e3e3e;
 }
 
@@ -201,5 +206,24 @@
   .MainContent p {
     font-size: 12px;
     line-height: 14px;
+  }
+}
+
+.Pop {
+  transition: 1.8s;
+}
+
+.Pop:hover {
+  transform: scale(1.1);
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
   }
 }

@@ -110,6 +110,12 @@
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
+  transition: 1.2s;
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 15em 0 0 0 #6da8a8;
 }
 
 @media all and (max-width: 940px) {
@@ -120,6 +126,4 @@
     flex-direction: column;
     height: 100%;
   }
-
-  
 }

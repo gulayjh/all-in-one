@@ -41,12 +41,21 @@
 
 .Content:nth-child(odd) {
   border-radius: 0px 242.5px 242.5px 0px;
+  transition: 1.5s;
+
 }
 
 .Content:nth-child(even) {
   margin-left: 20%;
   border-radius: 242.5px 0px 0px 242.5px;
+  transition: 1.5s;
 }
+
+.Content:hover {
+  margin-left: 10%;
+}
+
+
 
 .LeftContent img {
   width: 200px;
