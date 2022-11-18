@@ -133,7 +133,7 @@
 
 .MainContent:nth-child(2) .Content:nth-child(2) {
   height: 220px;
-  border-right: 1px solid #3e3e3e;
+  /* border-right: 1px solid #3e3e3e; */
   display: flex;
   justify-content: space-between;
   align-items: center;
